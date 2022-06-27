@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    padding:0; margin:0;
+}
+body{
+    background:hsl(30, 38%, 92%)
+}
+main{
+    margin:30px;
+    background:hsl(0, 0%, 100%)
+
+}
+.image-section{
+    height:30vh;
+
+}
+#product-pics{
+    width:100%;
+    height:100%;
+    font-family:"Montserrat" , sans-serif;
+    border-radius: 7px 7px 0 0;
+}
+.price-info{
+    padding:30px;
+    border-radius: 0px 0px 7px 7px;
+}
+h1, p, .price{
+    margin-top:25px;
+}
+h1,h2{
+    font-family:"Fraunces"
+}
+h1{
+    color:hsl(212, 21%, 14%);
+}
+h5, p{
+    color:hsl(228, 12%, 48%);
+}
+h2{
+    margin-right:15px;
+    color:rgb(33, 109, 33)
+}
+p{
+    font-size:14px;
+    
+}
+.price{
+    display:flex;
+}
+.buy{
+    display:flex;
+    justify-content: center;
+    margin-top:20px;
+    padding:10px;
+    border-radius: 10px;
+    background:rgb(33, 109, 33);
+    color:white;
+    column-gap: 10px;;
+}
+.buy:hover{
+    background:hsl(158, 36%, 37%);
+}
+
+@media screen and (min-width:600px){
+    main{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        height:70vh;
+        width:70vw;
+        margin:10px auto;
+        font-size: 10px;
+        
+    }
+    .image-section{
+        height:70vh;
+        width:100%;
+    }
+    .price-info{
+        height:70vh;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+        border-radius: 0px 7px 7px 0;
+    }
+    #product-pics{
+        width:100%;
+        height:100%;
+        border-radius: 7px 0px 0 7px;
+}
+h1, p, .price{
+    margin-top:0;
+}
+}
+@media screen and (min-width:1000px){
+    main{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        height:40vh;
+        width:70vw;
+        margin:10px auto;
+        font-size: inherit;
+    }
+    .image-section{
+        height:40vh;
+        width:100%;
+    }
+    .price-info{
+        height:40vh;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+        border-radius: 0px 7px 7px 0px;
+    }
+    #product-pics{
+        width:100%;
+        height:100%;
+        border-radius: 7px 0px 0 7px;
+}
+
+}
