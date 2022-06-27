@@ -7,7 +7,8 @@ body{
 }
 main{
     margin:30px;
-    background:hsl(0, 0%, 100%)
+    background:hsl(0, 0%, 100%);
+    border-radius:7px;
 
 }
 .image-section{
@@ -22,7 +23,6 @@ main{
 }
 .price-info{
     padding:30px;
-    border-radius: 0px 0px 7px 7px;
 }
 h1, p, .price{
     margin-top:25px;
@@ -81,7 +81,6 @@ p{
         display:flex;
         flex-direction:column;
         justify-content: space-around;
-        border-radius: 0px 7px 7px 0;
     }
     #product-pics{
         width:100%;
@@ -111,12 +110,11 @@ h1, p, .price{
         display:flex;
         flex-direction:column;
         justify-content: space-around;
-        border-radius: 0px 7px 7px 0px;
     }
     #product-pics{
         width:100%;
         height:100%;
-        border-radius: 7px 0px 0 7px;
+        border-radius:7px 0 0 7px;
 }
 
 }
