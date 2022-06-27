@@ -61,7 +61,7 @@ p{
     background:hsl(158, 36%, 37%);
 }
 
-@media screen and (min-width:600px){
+@media screen and (min-width:800px){
     main{
         display:grid;
         grid-template-columns: repeat(2, 1fr);
