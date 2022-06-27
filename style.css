@@ -96,7 +96,7 @@ h1, p, .price{
     main{
         display:grid;
         grid-template-columns: repeat(2, 1fr);
-        height:40vh;
+        height:60vh;
         width:70vw;
         margin:10px auto;
         font-size: inherit;
